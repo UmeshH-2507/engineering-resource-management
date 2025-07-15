@@ -1,0 +1,44 @@
+.assignments-page {
+  padding: 30px;
+}
+
+.assignment-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.assignment-form select,
+.assignment-form input {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.assignment-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.assignment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.assignment-table th,
+.assignment-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.assignment-table th {
+  background: #f0f0f0;
+}
+
+.delete-btn {
+  background-color: crimson;
+  color: white;
+}

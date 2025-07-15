@@ -1,0 +1,43 @@
+.projects-page {
+  padding: 30px;
+}
+
+.project-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.project-form input {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.project-form button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.project-table th, .project-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.project-table th {
+  background: #f0f0f0;
+}
+
+.delete-btn {
+  background-color: crimson;
+  color: white;
+  margin-left: 5px;
+}
